@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIWIS | Inteligencia Artificial</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#0b0f1a;
+color:white;
+line-height:1.6;
+}
+
+header{
+background:linear-gradient(90deg,#0b0f1a,#111a2f);
+padding:40px;
+text-align:center;
+border-bottom:1px solid #1f2b4d;
+}
+
+header h1{
+font-size:42px;
+color:#4da3ff;
+}
+
+header p{
+margin-top:10px;
+color:#ccc;
+}
+
+nav{
+margin-top:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#4da3ff;
+}
+
+section{
+padding:60px 10%;
+}
+
+.section-title{
+font-size:32px;
+margin-bottom:40px;
+color:#4da3ff;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#121a2e;
+padding:25px;
+border-radius:10px;
+transition:0.3s;
+border:1px solid #1e2a4d;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
+
+.card h3{
+color:#4da3ff;
+margin-bottom:10px;
+}
+
+.ceo{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+gap:30px;
+}
+
+.ceo img{
+width:180px;
+border-radius:100px;
+border:3px solid #4da3ff;
+}
+
+.contact{
+text-align:center;
+}
+
+button{
+background:#4da3ff;
+border:none;
+padding:12px 25px;
+color:white;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
+margin-top:20px;
+}
+
+button:hover{
+background:#2c7ad6;
+}
+
+footer{
+text-align:center;
+padding:30px;
+border-top:1px solid #1f2b4d;
+color:#888;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>AIWIS</h1>
+<p>Soluciones y productos de Inteligencia Artificial</p>
+<p>CEO: Armin Salazar</p>
+
+<nav>
+<a href="#servicios">Servicios</a>
+<a href="#productos">Productos</a>
+<a href="#ceo">CEO</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+</header>
+
+
+<section id="servicios">
+
+<h2 class="section-title">Servicios de Inteligencia Artificial</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Automatización con IA</h3>
+<p>Automatización de procesos empresariales utilizando modelos de inteligencia artificial y agentes autónomos.</p>
+</div>
+
+<div class="card">
+<h3>Chatbots Inteligentes</h3>
+<p>Desarrollo de asistentes virtuales para atención al cliente, ventas y soporte 24/7.</p>
+</div>
+
+<div class="card">
+<h3>Implementación de IA Corporativa</h3>
+<p>Programas de adopción de inteligencia artificial para empresas y organizaciones.</p>
+</div>
+
+<div class="card">
+<h3>Desarrollo de Soluciones IA</h3>
+<p>Creación de herramientas personalizadas basadas en modelos de lenguaje y machine learning.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="productos">
+
+<h2 class="section-title">Productos AIWIS</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>AIWIS Corporate AI</h3>
+<p>Plataforma para integrar inteligencia artificial dentro de empresas.</p>
+</div>
+
+<div class="card">
+<h3>AIWIS Agents</h3>
+<p>Agentes inteligentes que automatizan tareas y procesos digitales.</p>
+</div>
+
+<div class="card">
+<h3>AIWIS Analytics</h3>
+<p>Análisis de datos empresariales con modelos predictivos de IA.</p>
+</div>
+
+<div class="card">
+<h3>AIWIS Academy</h3>
+<p>Programas de formación en adopción de inteligencia artificial corporativa.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="ceo">
+
+<h2 class="section-title">CEO</h2>
+
+<div class="ceo">
+
+<img src="https://via.placeholder.com/200">
+
+<div>
+<h3>Armin Salazar</h3>
+<p>
+Fundador y CEO de AIWIS. Especialista en implementación de inteligencia artificial en empresas,
+automatización de procesos y desarrollo de soluciones tecnológicas innovadoras.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="contacto">
+
+<h2 class="section-title">Contacto</h2>
+
+<div class="contact">
+
+<p>¿Interesado en implementar inteligencia artificial en tu empresa?</p>
+
+<button onclick="contacto()">Contactar</button>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 AIWIS - Inteligencia Artificial</p>
+
+</footer>
+
+
+<script>
+
+function contacto(){
+alert("Gracias por tu interés en AIWIS. Pronto nos pondremos en contacto contigo.");
+}
+
+</script>
+
+</body>
+</html>
